@@ -22,7 +22,7 @@ Also you can change the speed of the planets rotations and translations from x0 
 
 ## Choices
 
-When the planets orbitate they do not rotate because of this translation, they rotate only because of the rotation speed they have, so if a planet has (0,0,0) rotation speed there would be a part of the planet the viewer would never see. After looking at the planets for some time it didn't feel weird, but now while making this readme I have notice that I was mistaken, however it should be an easy fix, instead of rotating the center of the planets I should push a matrix, translate the system to (0,0,0), then rotate it and finally pop the matrix. Because the next assigment is to improve this one I am going to not change it and do it in the next lab.
+When the planets orbitate they do not rotate because of this translation, they rotate only because of the rotation speed they have, so if a planet has (0,0,0) rotation speed there would be a part of the planet the viewer would never see, you can see this clearly in the planets "Sram" and "Yrucrem". After looking at the planets for some time it didn't feel weird, but now while making this readme I have notice that I was mistaken, however it should be an easy fix, instead of rotating the center of the planets I should push a matrix, translate the system to (0,0,0), then rotate it and finally pop the matrix. Because the next assigment is to improve this one I am going to not change it and do it in the next lab.
 
 ## References
 
