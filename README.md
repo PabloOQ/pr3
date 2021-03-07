@@ -34,4 +34,4 @@ Java API.
 
 ## Final look
 
-![Application] (https://github.com/PabloOQ/pr3-CIU/blob/main/gif.gif)
+![Application](https://github.com/PabloOQ/pr3-CIU/blob/main/gif.gif)
