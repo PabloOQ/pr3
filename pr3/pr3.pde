@@ -14,19 +14,6 @@ void setup(){
 
   bg = loadImage("../img/2k_stars_milky_way.jpg");
   createSystem();
-  /*system.add(new AstronomicalObject(50, 0,
-    new PVector(width/2-50, height/2-50, 0),
-    new PVector(1, 0, 0),
-    null,
-    null));
-  AstronomicalObject orbit = (AstronomicalObject) system.get(system.size()-1);
-  float r = 20;
-  PVector offset = PVector.add(orbit.getPosition(), new PVector(orbit.getR() + 20 + r, 0, 0));
-  system.add(new AstronomicalObject(r,0,
-    offset,
-    new PVector(0,0,1),
-    orbit,
-    new PVector(0,1,0)));*/
 }
 
 void draw(){
